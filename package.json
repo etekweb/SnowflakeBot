@@ -1,0 +1,23 @@
+{
+  "name": "snowflakebot",
+  "version": "1.0.0",
+  "description": "Discord bot for Winter WonderHack",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etekweb/SnowflakeBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etekweb/SnowflakeBot/issues"
+  },
+  "homepage": "https://github.com/etekweb/SnowflakeBot#readme"
+}
