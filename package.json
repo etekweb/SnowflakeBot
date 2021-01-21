@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "Discord bot for Winter WonderHack",
   "main": "bot.js",
-  "dependencies": {
-    "discord.js": "^11.5.1"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "node bot.js"
   },
@@ -19,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/etekweb/SnowflakeBot/issues"
   },
-  "homepage": "https://github.com/etekweb/SnowflakeBot#readme"
+  "homepage": "https://github.com/etekweb/SnowflakeBot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
 }
