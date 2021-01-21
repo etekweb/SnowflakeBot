@@ -9,8 +9,19 @@ client.on("ready", () => {
 // .startsWith = commands
 // .includes = memes to post if someone says keyword in message
 client.on("message", (message) => {
-  if (message.content.startsWith("ping")) {
-    message.channel.send("pong!");
+  if (message.content.startsWith("!newteam")) {
+    client.channels.fetch('801902799385788447').then((ch) => {
+      ch.clone({
+        name: "group1-chat",
+        reason: "TEST 1234"
+      });
+    });
+    client.channels.fetch('801902869191196732').then((ch) => {
+      ch.clone({
+        name: "Group 1 Voice/Video",
+        reason: "TEST 2345"
+      });
+    });
   }
 });
 
