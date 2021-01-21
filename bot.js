@@ -24,7 +24,7 @@ client.on("message", (message) => {
       );
       if (!role) {
         // Verify user isn't on another team already
-        const userHasTeam = message.sender.roles.cache.find((x) =>
+        const userHasTeam = message.member.roles.cache.find((x) =>
           x.name.startsWith("[TEAM]")
         );
         if (!userHasTeam) {
