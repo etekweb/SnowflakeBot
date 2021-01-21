@@ -67,6 +67,7 @@ client.on("message", (message) => {
                     "#" +
                     message.author.discriminator,
                 });
+                message.reply("Team created! Select #" + teamNameArr.join("-").toLowerCase() + "-chat" + " on the left to join.");
               });
               // Create new voice channel for team (based on DO NOT DELETE VC)
               client.channels.fetch("801902869191196732").then((ch) => {
