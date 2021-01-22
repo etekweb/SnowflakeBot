@@ -55,6 +55,11 @@ client.on("message", (message) => {
                       id: role.id,
                       allow: ["VIEW_CHANNEL"],
                     },
+                    // WWH Staff
+                    {
+                      id: '801646024237383680',
+                      allow: ["VIEW_CHANNEL"],
+                    },
                     {
                       id: message.guild.id,
                       deny: ["VIEW_CHANNEL"],
@@ -77,6 +82,16 @@ client.on("message", (message) => {
                   permissionOverwrites: [
                     {
                       id: role.id,
+                      allow: ["VIEW_CHANNEL"],
+                    },
+                    // Judges
+                    {
+                      id: '801969656193220629',
+                      allow: ["VIEW_CHANNEL"],
+                    },
+                    // WWH Staff
+                    {
+                      id: '801646024237383680',
                       allow: ["VIEW_CHANNEL"],
                     },
                     {
